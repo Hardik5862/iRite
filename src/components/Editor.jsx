@@ -26,7 +26,7 @@ const Editor = () => {
         editorInstance.current.destroy();
       }
     };
-  });
+  }, []);
 
   const handleSave = async () => {
     if (editorInstance.current && editorInstance.current.save) {
