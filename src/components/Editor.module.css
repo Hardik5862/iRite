@@ -1,0 +1,6 @@
+.container {
+  background-color: var(--editor-bg);
+  width: 850px;
+  border-radius: 8px;
+  padding: 30px 50px;
+}

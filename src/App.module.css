@@ -1,0 +1,11 @@
+.main_container {
+  background-color: var(--primary-bg);
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.main_container > main {
+  display: flex;
+  justify-content: center;
+}
