@@ -5,6 +5,11 @@
   overflow-y: auto;
 }
 
+.main_container > header {
+  display: flex;
+  justify-content: center;
+}
+
 .main_container > main {
   display: flex;
   justify-content: center;
